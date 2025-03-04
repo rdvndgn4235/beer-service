@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0afa0eb0-397f-4c4a-899c-ac051e307553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rd/beerservice/web/model/BeerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rd/beerservice/web/model/BeerPageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rd/beerservice/web/model/BeerStyleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rd/beerservice/web/controller/BeerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rd/beerservice/web/controller/BeerControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -21,27 +21,28 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rdvndgn4235"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rdvndgn4235&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rdvndgn4235/beer-service.git",
-    "accountId": "f06fcfb3-a13d-4c80-909b-e456fa9a2c64"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rdvndgn4235/beer-service.git&quot;,
+    &quot;accountId&quot;: &quot;f06fcfb3-a13d-4c80-909b-e456fa9a2c64&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2tfnVmGItvZS5jY7GkEzKa3QbHW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BeerControllerTests.executor": "Run",
+    "JUnit.BeerControllerTests.getBeerById.executor": "Run",
+    "JUnit.BeerControllerTests.saveNewBeer.executor": "Debug",
+    "JUnit.BeerControllerTests.updateBeerById.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -56,6 +61,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.BeerServiceApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/dogan/Projects/spring-boot/beer-service",
@@ -67,6 +74,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,8 +82,77 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rd.beerservice.web.model" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.rd.beerservice.web.controller" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BeerControllerTests">
+    <configuration name="BeerControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rd.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rd.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rd.beerservice.web.controller.BeerControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTests.getBeerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rd.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rd.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rd.beerservice.web.controller.BeerControllerTests" />
+      <option name="METHOD_NAME" value="getBeerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTests.saveNewBeer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rd.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rd.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rd.beerservice.web.controller.BeerControllerTests" />
+      <option name="METHOD_NAME" value="saveNewBeer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTests.updateBeerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rd.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rd.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rd.beerservice.web.controller.BeerControllerTests" />
+      <option name="METHOD_NAME" value="updateBeerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="beer-service" />
@@ -84,6 +161,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerControllerTests" />
+        <item itemvalue="JUnit.BeerControllerTests.saveNewBeer" />
+        <item itemvalue="JUnit.BeerControllerTests.updateBeerById" />
+        <item itemvalue="JUnit.BeerControllerTests.getBeerById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,7 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740752022827</updated>
-      <workItem from="1740752023859" duration="2620000" />
+      <workItem from="1740752023859" duration="5681000" />
+      <workItem from="1741078456295" duration="3750000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project">
       <option name="closed" value="true" />
@@ -119,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741072408319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding web data model">
+      <option name="closed" value="true" />
+      <created>1741073566798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741073566798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +221,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize project" />
+    <MESSAGE value="adding web data model" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding web data model" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
